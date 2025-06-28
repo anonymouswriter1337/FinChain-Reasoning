@@ -32,7 +32,7 @@ This example shows a symbolic template for Compound Interest:
 - Includes both natural language and step-by-step symbolic solution
 - Fully executable and verifiable
 
-## 🗂️ Dataset Structure
+## 🗂️ Project Structure
 
 ```
 FinChain-Reasoning/
