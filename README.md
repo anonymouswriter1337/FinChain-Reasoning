@@ -35,10 +35,17 @@ This example shows a symbolic template for Compound Interest:
 ## 🗂️ Dataset Structure
 
 ```
-finchain/
+FinChain-Reasoning/
+├── chaineval/            # LangChain evaluation scripts
 ├── data/
 │   └── templates/        # Symbolic prompt templates for 54 financial topics
-├── eval/                 # ChainEval evaluation scripts (coming soon)         
+│   └── testset/          # Synthetic testset containing template instances
+├── eval/                 # ChainEval evaluation scripts
+├── human_eval/           # Human evaluations
+├── modles/               # Template generation scripts per model
+├── performance_charts/   # Various performance charts
+├── human_eval/           # Human evaluations
+├── results/              # Evaluation results (per model)
 └── README.md
 ```
 
